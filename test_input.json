@@ -1,0 +1,10 @@
+{
+    "input": {
+      "prompt": "A cat holding a sign that says hello world",
+      "height": 512,
+      "width": 512,
+      "guidance_scale": 3.5,
+      "steps": 20
+    }
+  }
+  
