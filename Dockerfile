@@ -1,11 +1,9 @@
 FROM python:3.11.1-buster
 
 # Build args
-ARG HF_TOKEN
 ARG HF_HUB_DOWNLOAD_TIMEOUT=600
 
 # Set environment variables
-ENV HUGGINGFACE_TOKEN=$HF_TOKEN
 ENV HF_HUB_DOWNLOAD_TIMEOUT=$HF_HUB_DOWNLOAD_TIMEOUT
 
 WORKDIR /app
@@ -23,4 +21,4 @@ RUN python -c "import torch; from diffusers import FluxPipeline; \
 
 COPY src/handler.py /app/handler.py
 
-CMD [\"python\", \"-u\", \"/app/handler.py\"]
+CMD ["python", "-u", "/app/handler.py"]
