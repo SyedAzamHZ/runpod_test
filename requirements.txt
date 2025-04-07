@@ -1,0 +1,16 @@
+# Core dependencies
+runpod
+torch
+diffusers
+transformers
+accelerate
+safetensors
+protobuf
+sentencepiece
+numpy<2.0
+
+# Testing and development
+requests
+Pillow
+python-dotenv
+jupyter 

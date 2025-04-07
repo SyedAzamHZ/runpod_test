@@ -6,3 +6,4 @@ accelerate
 safetensors
 protobuf
 sentencepiece
+numpy<2.0
