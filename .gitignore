@@ -60,4 +60,4 @@ weights/
 .cache/
 
 # Docker
-.dockerignore 
+.dockerignore fix-author.sh
